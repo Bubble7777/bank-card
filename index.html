@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Банковская карта</title>
+    <link rel="stylesheet" href="css/style-min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="card-wrapper">
+                <div class="card-back">
+                    <div class="card-back-line"></div>
+                    <label for="cvv" class="text-cvc-cvv">CVC/CVV</label>
+                    <input type="number" id="cvv">
+                    <p class="text-cvv">The last 3 <br> or 4 digits<br> on back of <br> the card</p>
+                </div>
+                <div class="card-front">
+                   <label for="card-number" class="card-number-text">Card number</label>
+                   <input type="text" id="card-number">
+                   <label for="card-month" class="expiration-text">Expiration date</label>
+                   <input type="number" id="card-month">
+                   <label for="card-year"></label>
+                   <input type="number" id="card-year">
+                   <img src="img/visa.png" alt="visa-master" class="visa">
+                   <img src="img/master-card.png" alt="master-card" class="master-card">
+                   <img src="img/american.png" alt="american-express" class="american-express">
+                   <label for="cardholder" class="cardhole-text">Cardholder name</label>
+                   <input type="text" id="cardholder">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

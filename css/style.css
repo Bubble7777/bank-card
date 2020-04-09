@@ -1,0 +1,152 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-color: #667b90;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+input {
+	border: 2px solid #d1d9dc;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	color: cadetblue;
+	font-size: 36px;
+}
+
+.card-wrapper {
+	width: 751px;
+	height: 381px;
+	position: relative;
+}
+
+.card-back, .card-front {
+	width: 535px;
+	height: 343px;
+	border: 1px solid grey;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	position: absolute;
+}
+
+.card-back {
+	right: 0;
+	bottom: 0;
+	background: #ececec;
+}
+
+.card-front {
+	background: #f1f1f1;
+}
+
+.card-back-line {
+	width: 100%;
+	height: 80px;
+	background: black;
+	position: absolute;
+	top: 50px;
+}
+
+.text-cvc-cvv {
+	position: absolute;
+	right: 83px;
+	bottom: 170px;
+	width: 100px;
+	padding: 5px;
+	font-weight: 700;
+}
+
+#cvv {
+	position: absolute;
+	right: 75px;
+	bottom: 112px;
+	width: 105px;
+	padding: 5px;
+	font-size: 40px;
+	text-align: center;
+	outline: none;
+}
+
+.text-cvv {
+	position: absolute;
+	right: 128px;
+	top: 225px;
+	font-size: 14px;
+	color: cadetblue;
+}
+
+.visa {
+	position: absolute;
+	top: 8px;
+	right: 15px;
+}
+
+.master-card {
+	height: 86px;
+	position: absolute;
+	bottom: 155px;
+	right: 36px;
+}
+
+.american-express {
+	position: absolute;
+	bottom: 65px;
+	right: 20px;
+}
+
+.cardhole-text, .expiration-text {
+	position: absolute;
+	bottom: 80px;
+	left: 24px;
+}
+
+.expiration-text {
+	top: 129px;
+}
+
+#cardholder {
+	position: absolute;
+	width: 90%;
+	padding: 5px;
+	bottom: 22px;
+	margin: 0 5%;
+	outline: none;
+	right: -5px;
+}
+
+#card-year,#card-month {
+	position: absolute;
+	font-size: 40px;
+	padding: 5px;
+	outline: none;
+	width: 135px;
+	top: 150px;
+	right: 209px;
+}
+
+#card-month {
+	left: 4%;
+}
+
+#card-number {
+	position: absolute;
+	font-size: 40px;
+	padding: 5px;
+	outline: none;
+	width: 288px;
+	top: 45px;
+	left: 4%;
+}
+
+.card-number-text {
+	position: absolute;
+	top: 24px;
+	left: 24px;
+}
